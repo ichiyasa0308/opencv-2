@@ -59,10 +59,12 @@ opencv:version 3.42
 #参考にしたサイト
 
 ・numpyとopenCVを使った画像のフーリエ変換と逆変換
+
 フーリエ変換の処理の具体的な中身について参考にした。
 https://www.hello-python.com/2018/02/16/numpyとopencvを使った画像のフーリエ変換と逆変換/
 
 ・OpenCV-Pythonチュートリアル-フーリエ変換
+
 フーリエ変換の後、逆フーリエ変換する処理を参考にした。
 http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
 

@@ -68,17 +68,20 @@ max = int(np.max(Spectrum))
 #スペクトルの値が255を超えているので、２５５以下に収まるように調整して表示
 cv2.imshow("Spectrum",(Spectrum/max * 255).astype(uint8))
 
-
+flag=0
 while 1:
     #左クリックで１マス更新
     if mouseData.getEvent() == cv2.EVENT_LBUTTONDOWN:
+        if flag==0:
+            flag=1
+        else : flag=0
         im2[:,:] = 0
         y=mouseData.getY()
         x=mouseData.getX()
         inp[y,x] = 1
         im2[y,x] = 1
     #右クリックで広く更新
-    if mouseData.getEvent() == cv2.EVENT_RBUTTONDOWN:
+    if mouseData.getEvent() ==  cv2.EVENT_MOUSEMOVE and flag==1:
             im2[:,:] = 0
             y=mouseData.getY()
             x=mouseData.getX()

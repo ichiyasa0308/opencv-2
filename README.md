@@ -41,6 +41,9 @@ opencv:version 3.42
 
 
 #実行の様子
+
+
+
 ![oie_animation](https://user-images.githubusercontent.com/48341900/62425026-60ed4400-b711-11e9-942c-71e2b9bb83ba.gif)
 
 #参考にしたサイト

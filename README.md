@@ -61,14 +61,19 @@ opencv:version 3.42
 ・numpyとopenCVを使った画像のフーリエ変換と逆変換
 
 フーリエ変換の処理の具体的な中身について参考にした。
+
 https://www.hello-python.com/2018/02/16/numpyとopencvを使った画像のフーリエ変換と逆変換/
 
 ・OpenCV-Pythonチュートリアル-フーリエ変換
 
 フーリエ変換の後、逆フーリエ変換する処理を参考にした。
+
 http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
 
 ・OpenCVで表示した画像にマウスクリックした場所を取得する方法 (Python)
+
+マウスでの入力を処理に組み込むのに参考にした。
+
 http://whitecat-student.hatenablog.com/entry/2016/11/09/225631
 
 
